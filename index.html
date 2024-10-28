@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+   <style>
+    body {
+        background-color: #181818;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .text-section {
+        background-color: #282828;
+        border-radius: 10px;
+        padding: 40px;
+    }
+
+    .text-section h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .text-section p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stat {
+        text-align: center;
+    }
+
+    .stat span {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .stat p {
+        font-size: 14px;
+    }
+
+    .image-section {
+        background-color: #282828;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: hue-rotate(270deg) saturate(150%); 
+    }
+
+    .highlight {
+        color: purple; 
+    }
+</style>
+</head>
+<body>
+      <div class="container">
+          <div class="text-section">
+              <h2>Get <span class="highlight">insights</span> that help your business grow.</h2>
+              <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+              <div class="stats">
+                  <div class="stat">
+                      <span>10K+</span>
+                      <p>COMPANIES</p>
+                  </div>
+                  <div class="stat">
+                      <span>314</span>
+                      <p>TEMPLATES</p>
+                  </div>
+                  <div class="stat">
+                      <span>12M+</span>
+                      <p>QUERIES</p>
+                  </div>
+              </div>
+          </div>
+          <div class="image-section">
+              <img src="C:\Users\Parasat\Desktop\bbb\images\image-header-desktop.jpg" alt="Data Analytics Team">
+          </div>
+      </div>
+  </body>
+  </html>
